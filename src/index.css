@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Playfair Display", ui-serif, Georgia, serif;
+  --font-action: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+
+  --color-coffee: #6F4E37;
+  --color-latte: #C89F7B;
+  --color-caramel: #D4A574;
+  --color-cream: #FFF8F1;
+  --color-dark: #1A1A1A;
+  --color-charcoal: #2B2B2B;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans bg-cream text-charcoal;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-cream;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-latte rounded-full border-2 border-cream;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-coffee;
+}
+
+.glass {
+  @apply bg-white/70 backdrop-blur-md border border-white/20;
+}
+
+.dark .glass {
+  @apply bg-dark/70 border-white/10;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Deposit Coffee Corner",
+  "description": "Premium cafe and restaurant located in Lancaster, PA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
