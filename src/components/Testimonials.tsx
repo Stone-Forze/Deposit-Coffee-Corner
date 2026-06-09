@@ -71,7 +71,7 @@ export default function Testimonials() {
                     <Star key={i} className="w-5 h-5 fill-caramel text-caramel" />
                   ))}
                 </div>
-                <p className="font-sans text-xl md:text-2xl text-gray-700 dark:text-gray-300 leading-relaxed mb-8 italic">
+                <p className="font-sans text-xl md:text-2xl text-white/90 leading-relaxed mb-8 italic">
                   "{testimonials[current].review}"
                 </p>
                 <h4 className="font-sans text-[10px] font-bold text-white/50 uppercase tracking-[0.2em]">
