@@ -70,7 +70,7 @@ export default function Footer() {
         </div>
 
         <div className="pt-6 border-t border-coffee/10 flex flex-col md:flex-row items-center justify-between gap-4 font-sans text-[10px] text-charcoal/50 dark:text-white/40 font-bold uppercase tracking-[0.2em]">
-          <div>© {new Date().getFullYear()} DEPOSIT COFFEE CORNER</div>
+          <div>© {new Date().getFullYear()} DEPOSIT COFFEE CORNER - By STONE FORZE</div>
           <div className="flex gap-6">
              <span className="hover:text-coffee transition-colors cursor-pointer">Instagram</span>
              <span className="hover:text-coffee transition-colors cursor-pointer">Facebook</span>
